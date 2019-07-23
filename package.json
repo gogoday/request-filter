@@ -1,0 +1,27 @@
+{
+  "name": "check-keys",
+  "version": "1.1.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "./node_modules/typescript/bin/tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gogoday/request-filter.git"
+  },
+  "keywords": [],
+  "author": "gogoday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gogoday/request-filter/issues"
+  },
+  "homepage": "https://github.com/gogoday/request-filter#readme",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
