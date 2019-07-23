@@ -11,11 +11,18 @@ class Filter {
     this.list = [];
   }
 
-  addKey(value) {
+  /**
+   * value 需要过滤的字符串
+   * i: true 忽略大小写 default false
+   */
+  addKey(value: string, i: boolean = false) {
     this.list.push(value)
+    if (i) {
+      this.list.push(value.toLowerCase());
+    }
   }
 
-  hasKey(obj) {
+  hasKey(obj: any) {
     if (_.isPlainObject(obj)) {
       for (let i = 0, l = this.list.length; i < l; i ++ ) {
         if (_.has(obj, this.list[i])) {
