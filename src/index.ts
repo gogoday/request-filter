@@ -7,6 +7,10 @@ class Filter {
   // filter List
   list: string[];
 
+  constructor() {
+    this.list = [];
+  }
+
   addKey(value) {
     this.list.push(value)
   }

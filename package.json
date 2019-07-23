@@ -4,7 +4,7 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "tsc": "./node_modules/typescript/bin/tsc --watch"
   },
   "repository": {
@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/gogoday/request-filter#readme",
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
     "typescript": "^3.5.3"
   },
   "dependencies": {

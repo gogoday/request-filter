@@ -15,7 +15,8 @@
         "baseUrl": ".",
         "experimentalDecorators": true,
         "noEmitOnError": true,
-        "noErrorTruncation": true
+        "noErrorTruncation": true,
+        "typeRoots": ["./typings"]
     },
     "include": [
         "src/**/*"
